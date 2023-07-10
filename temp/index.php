@@ -19,6 +19,7 @@ $basebuyAutoApi = new BasebuyAutoApi(
     new CurlGetConnector( API_KEY, API_URL, $downloadFolder)
 );
 
+
 try {
 
 if ( $basebuyAutoApi->characteristicGetDateUpdate( $idType ) > $lastDateUpdate){
