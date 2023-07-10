@@ -1,0 +1,1722 @@
+// .inner 
+//   &::before, &::after
+//     content: none
+
+.visually-hidden
+  position: absolute
+  width: 1px
+  height: 1px
+  margin: -1px
+  border: 0
+  padding: 0
+  clip: rect(0 0 0 0)
+  overflow: hidden
+
+.main
+  &::before
+    content: none
+    
+.announcement
+  margin: 11.2rem 0 18rem
+  &-title
+    font-size: 4.5rem
+    font-weight: 700
+    color: #20242C
+    margin-bottom: 5.2rem
+  &-wrap
+    display: flex
+    justify-content: space-between
+  &-parameters__form
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    padding-top: 3.6rem
+  .announcement-label__title
+    position: absolute
+    display: inline-flex
+    align-items: center
+    top: -3.7rem
+    left: 0
+    font-size: 1.6rem
+    font-weight: 500
+    line-height: 1.87
+    color: #B1B6C8
+    // margin-bottom: .6rem
+    span
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-shrink: 0
+      margin-left: .6rem
+      width: 1.8rem
+      height: 1.8rem
+      border-radius: 50%
+      background: #4067F0
+      box-shadow: 1.1rem 1.1rem 4.6rem rgba(39, 138, 230, 0.3)
+      font-size: 1.5rem
+      font-weight: 700
+      color: #E3E9FF
+      cursor: pointer
+  label
+    display: inline-block
+    width: 31.5%
+    position: relative
+    &:not(:last-child)
+      // margin-bottom: 3.5rem
+      margin-bottom: 7rem
+    &.wide
+      width: 100%
+    &.s-wide
+      width: 65%
+    &.ss-wide
+      width: 48.5%
+    &.narrow
+      width: 23.6%
+    &.label-price
+      &::after
+        content: '₽'
+        position: absolute
+        top: 50%
+        right: 2.5rem
+        transform: translateY(-50%)
+        font-size: 1.9rem
+        font-weight: 600
+        color: #4067F0
+    &.label-rent
+      &::after
+        content: '₽ / месяц'
+        position: absolute
+        top: 50%
+        right: 2.5rem
+        transform: translateY(-50%)
+        font-size: 1.5rem
+        font-weight: 700
+        color: #20242C
+    &.label-textarea
+      margin-top: -1.1rem
+    &.label-checkbox
+      height: 100%
+      display: inline-flex
+      align-items: center
+      font-size: 1.6rem
+      font-weight: 700
+      color: #20242C
+      cursor: pointer
+      input:checked ~ span::before
+        content: ''
+      span
+        display: block
+        width: 5rem
+        height: 5rem
+        border-radius: 50%
+        background: #EEF1FB
+        flex-shrink: 0
+        margin-right: 1.3rem
+        position: relative
+        &::before
+          // content: ''
+          position: absolute
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
+          width: 1.8rem
+          height: 1.4rem
+          background: url(../images/announcement/check-g.svg) 50% no-repeat
+          background-size: contain
+    input, textarea
+      width: 100%
+      height: 5rem
+      padding: 0 7rem 0 2.6rem
+      background: #EEF0FC
+      border-radius: 3rem
+      appearance: none
+      border: none
+      font-size: 1.6rem
+      font-weight: 700
+      color: #20242C
+      &::placeholder
+        color: #A0A5BC
+      &.visually-hidden
+        position: absolute
+        width: 1px
+        height: 1px
+        margin: -1px
+        border: 0
+        padding: 0
+        clip: rect(0 0 0 0)
+        overflow: hidden
+    textarea
+      height: 19.3rem
+      padding: 3rem 3.5rem
+      resize: none
+      // &::placeholder
+      //   color: #A0A5BC
+  &-switch
+    width: 31.5%
+    position: relative
+    &__wrap
+      display: flex
+      align-items: center
+      background: #EEF0FC
+      border-radius: 10rem
+    label
+      display: inline-flex
+      width: 50%
+      &:not(:last-child)
+        margin-bottom: 0
+      >span
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        font-size: 1.5rem
+        font-weight: 700
+        color: #20242C
+        white-space: nowrap
+        cursor: pointer
+      input:checked
+        background: #4067F0
+        ~ span
+          color: #fff
+  &-filter
+    width: 100%
+    // height: 5rem
+    .select
+      &-text
+        display: flex
+        align-items: center
+        width: 100%
+        height: 5rem
+        padding: 0 5rem 0 2.6rem
+        background: #EEF0FC
+        border-radius: 3rem
+        font-size: 1.6rem
+        font-weight: 700
+        color: #20242C
+        position: relative
+        cursor: pointer
+        &::after
+          content: ''
+          position: absolute
+          top: 50%
+          right: 2.2rem
+          transform: translateY(-50%)
+          width: 1.6rem
+          height: .8rem
+          background: url(../images/announcement/arrow-dropdown.svg) 50% no-repeat
+          background-size: contain
+      &-dropdown
+        display: none
+        position: absolute
+        left: 0
+        right: 0
+        // top: 100%
+        top: calc(100% + .4rem)
+        padding: 1.2rem 2.5rem
+        background: #fff
+        border-radius: 2rem
+        box-shadow: .5rem 1.1rem 4.4rem #DDE3F7
+        z-index: 1
+        li
+          font-size: 1.6rem
+          font-weight: 700
+          cursor: pointer
+          position: relative
+          &:not(:last-child)
+            margin-bottom: 1.5rem
+          &.active
+            &::after
+              content: ''
+              position: absolute
+              top: 50%
+              right: 0
+              transform: translateY(-50%)
+              width: 1.7rem
+              height: 1.3rem
+              background: url(../images/announcement/dropdown-check.svg) 50% no-repeat
+              background-size: contain
+  &-content
+    width: 73.9%
+    &__block
+      padding: 4rem 4.5rem 4.4rem
+      background: #fff
+      border-radius: 4rem
+      &:not(:last-child)
+        margin-bottom: 5.5rem
+      &-wrap
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        flex-wrap: wrap
+        padding-top: 3.6rem
+    &__title
+      font-size: 3.1rem
+      font-weight: 700
+      color: #20242C
+      margin-bottom: 3.2rem
+    &__subtitle
+      font-size: 1.6rem
+      color: #20242C
+      margin: -2rem 0 3.2rem
+    &__category
+      label
+        &:not(:last-child)
+          margin-bottom: 1.6rem
+        input
+          border: 1px solid #4067F0
+          &::placeholder
+            color: #4067F0
+      &-all
+        border-radius: 2rem
+        overflow: hidden
+        &-wrap
+          display: none
+        li
+          background: #FBFBFD
+          &:nth-child(even)
+            background: #F1F2F8
+        &-link
+          display: flex
+          align-items: center
+          padding: 1.2rem 3rem
+          font-size: 2.3rem
+          font-weight: 700
+          color: #20242C
+          position: relative
+          &::after
+            content: ''
+            position: absolute
+            top: 50%
+            right: 2.5rem
+            transform: translateY(-50%) rotate(-90deg)
+            width: 1.8rem
+            height: .9rem
+            background: url(../images/announcement/arrow-dropdown.svg) 50% no-repeat
+            background-size: contain
+        &-img
+          width: 5rem
+          height: 5rem
+          border-radius: 50%
+          background: #4067F0
+          display: flex
+          justify-content: center
+          align-items: center
+          flex-shrink: 0
+          margin-right: 2.8rem
+          img
+            width: 2.4rem
+      &-subcategory
+        display: flex
+        align-items: center
+        // padding: 2.9rem 2.3rem
+        min-height: 8.2rem
+        padding: 1.6rem 2.3rem
+        background: #F1F2F8
+        border-radius: 2rem
+        &.active
+          > li
+            &:not(.active)
+              display: none
+        &-back
+          width: 5rem
+          height: 5rem
+          border-radius: 50%
+          background: #4067F0
+          // display: flex
+          display: none
+          justify-content: center
+          align-items: center
+          flex-shrink: 0
+          margin-right: 2.8rem
+          img
+            width: 1.1rem
+        &-list
+          // display: flex
+          display: none
+          align-items: center
+          flex-wrap: wrap
+          &.active
+            display: flex
+        &-wrap
+          display: none
+          margin-top: 4.6rem
+        li
+          font-size: 2rem
+          font-weight: 500
+          color: #20242C
+          text-decoration: underline
+          margin-right: 7rem
+          margin-bottom: 1rem
+          &.active
+            display: flex
+            align-items: center
+            margin-bottom: 0
+            > a
+              display: none
+              &.announcement-content__category-subcategory-back
+                display: flex
+      &-block
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 3.2rem 3.5rem 3.2rem 2.5rem
+        background: #EEF0FC
+        border-radius: 4rem
+      &-name
+        max-width: 75%
+        display: flex
+        align-items: center
+      &-img
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-shrink: 0
+        width: 5rem
+        height: 5rem
+        border-radius: 50%
+        background: #4067F0
+        margin-right: 2.8rem
+        img
+          width: 2.4rem
+      &-list
+        display: flex
+        align-items: center
+        font-size: 2.3rem
+        font-weight: 700
+        color: #20242C
+        margin-bottom: .8rem
+        li
+          position: relative
+          &:not(:last-child)
+            margin-right: 2.5rem
+            &::after
+              content: ''
+              position: absolute
+              top: 50%
+              right: -1.6rem
+              transform: translateY(-50%)
+              width: 0.4rem
+              height: 0.4rem
+              border-radius: 50%
+              background: #20242C
+      &-description
+        font-size: 1.8rem
+        font-weight: 500
+        color: #7985AF
+      &-more
+        display: inline-block
+        font-size: 1.6rem
+        font-weight: 700
+        color: #20242C
+        text-decoration: underline
+        img
+          display: none
+    &__appearance
+      &.appearance-apartment
+        .announcement-content__appearance-block
+          margin-bottom: 3rem
+      &.appearance-work
+        .announcement-content__appearance-block
+          margin-bottom: 1rem
+      &-block
+        position: relative
+        margin: 6.6rem 0 8rem
+        label
+          width: 16.6rem
+          height: 16.6rem
+          border-radius: 1rem
+          background: #D5DAEC
+          cursor: pointer
+          &::after
+            content: ''
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            width: 6.6rem
+            height: 6.6rem
+            background: url(../images/announcement/appearance-photo-add.svg) 50% no-repeat
+            background-size: contain
+          input
+            position: absolute
+            width: 1px
+            height: 1px
+            margin: -1px
+            border: 0
+            padding: 0
+            clip: rect(0 0 0 0)
+            overflow: hidden
+      &-photo
+        position: relative
+        margin-right: 2rem
+        margin-bottom: 2rem
+        &.appearance-photo-main
+          &::after
+            content: 'Основное фото'
+            position: absolute
+            top: 103%
+            left: 0
+            font-size: 1.4rem
+            font-weight: 500
+            color: #B1B6C8
+        &:hover
+          .announcement-content__appearance-photo-remove
+            display: flex
+        &s
+          max-width: 71%
+          display: flex
+          flex-wrap: wrap
+          &-wrap
+            display: flex
+            flex-wrap: wrap
+        &-remove
+          position: absolute
+          // display: flex
+          display: none
+          justify-content: center
+          align-items: center
+          top: -1rem
+          right: -1rem
+          width: 3.4rem
+          height: 3.4rem
+          border-radius: 50%
+          background: #4067F0
+          cursor: pointer
+          z-index: 1
+          img
+            width: 2.6rem
+            pointer-events: none
+        &-img
+          width: 16.6rem
+          height: 16.6rem
+          img
+            height: 100%
+            object-fit: cover
+            border-radius: 1rem
+      &-inputs
+        display: flex
+        justify-content: space-between
+        align-items: center
+        label
+          margin-bottom: 0 !important
+    &__place
+      &-search
+        margin: 6.6rem 0 3.6rem
+        &-btn
+          position: absolute
+          display: flex
+          justify-content: center
+          align-items: center
+          top: 0
+          right: 0
+          border-radius: 50%
+          width: 6rem
+          height: 100%
+          img
+            width: 2.3rem
+      &-map
+        width: 100%
+        height: 31.5rem
+        border-radius: 3rem
+        overflow: hidden
+    &__save
+      display: flex
+      align-items: center
+      justify-content: space-between
+      background: #CCD3ED
+      padding: 3.8rem 4.5rem
+      &.announcement-content__save-descr
+        flex-wrap: wrap
+        padding-bottom: 2.5rem
+        .announcement-content__save-btn
+          transform: translateY(1rem)
+      &-btn
+        display: flex
+        align-items: center
+        font-size: 1.6rem
+        font-weight: 700
+        color: #20242C
+        text-decoration: underline
+        &.announcement-save__btn-edit
+          text-decoration: none
+          img
+            width: 1rem
+        &-img
+          width: 5rem
+          height: 5rem
+          border-radius: 50%
+          background: #4067F0
+          box-shadow: 1rem 1rem 4rem rgba(39, 115, 230, 0.15)
+          display: flex
+          justify-content: center
+          align-items: center
+          flex-shrink: 0
+          margin-right: 1.8rem
+          img
+            width: 2.4rem
+      &-next
+        width: 22.9rem
+        height: 5rem
+        display: flex
+        justify-content: center
+        align-items: center
+        background: #4067F0
+        border-radius: 10rem
+        box-shadow: 1rem 1rem 4rem rgba(39, 115, 230, 0.15)
+        font-size: 1.6rem
+        font-weight: 700
+        color: #fff
+      &-description
+        font-size: 1.5rem
+        margin-top: 1.2rem
+        margin-left: auto
+        a
+          font-weight: 700
+          color: #4067F0
+    &__brand, &__model
+      .announcement-label__title
+        display: none
+    &__car-parameters
+      padding-bottom: 0
+    &__plate
+      &-number
+        width: 100%
+        position: relative
+        &s
+          padding-bottom: 0
+        label
+          &:first-of-type
+            width: 31.2rem
+            z-index: 1
+            input
+              border-top-right-radius: 0
+              border-bottom-right-radius: 0
+            &::after
+              content: ''
+              position: absolute
+              top: 50%
+              right: 0
+              transform: translateY(-50%)
+              width: .15rem
+              height: 70%
+              background: #D7DAE6
+          &:last-of-type
+            width: 20.6rem
+            margin-left: -.5rem
+            input
+              border-top-left-radius: 0
+              border-bottom-left-radius: 0
+              padding: 0 3rem 0 9rem
+          input
+            height: 9.6rem
+            border-radius: 2.3rem
+            padding: 0 5.5rem
+            font-size: 2.9rem
+            letter-spacing: .07em
+    &__story
+      padding-bottom: 0
+      &-block
+        width: 31.5%
+        display: flex
+        justify-content: space-between
+        position: relative
+    &__description
+      .announcement-content__block-wrap
+        padding: 0
+      .announcement-label__title
+        display: none
+      label
+        textarea
+          height: 26rem
+          line-height: 1.87
+    &__options
+      padding-bottom: 0
+      &.other-options
+        .announcement-content__options-body
+          justify-content: flex-start
+          label
+            &:not(:nth-child(4n))
+              margin-right: 1.9rem    
+      &-wrap
+        padding-top: 2.5rem
+      &-title
+        font-size: 2.2rem
+        font-weight: 700
+        color: #20242C
+        margin-bottom: 6rem
+      .label-group
+        width: 100%
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        label
+          &:nth-last-child(-n+4)
+            margin-bottom: 3.5rem
+      &-item
+        padding-bottom: 1.3rem
+        &:not(:last-child)
+          border-bottom: .15rem solid #E4E8F3
+          margin-bottom: 3.5rem
+        // label
+        //   &:nth-last-child(-n+4)
+        //     margin-bottom: 3.5rem
+        &.item-review
+          .announcement-content__options-title
+            margin-bottom: 3.5rem
+          label
+            margin-bottom: 2.8rem
+      &-body
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+      label
+        &.label-checkbox
+          // &:not(:last-child)
+          margin-bottom: 2.8rem
+    &__apartment
+      padding-bottom: 0
+    &__deal
+      padding-bottom: 0
+    &__parameters
+      &.announcement-content__parameters-service
+        .label-textarea
+          margin-top: 6.8rem
+      &.announcement-content__parameters-work
+        padding-bottom: 0
+      &-block
+        width: 31.5%
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        position: relative
+        label
+          width: 37%
+          &.label-price
+            width: 60%
+          .select-text
+            padding: 0 1.8rem
+            &::after
+              right: 1.2rem
+    &__requirements
+      padding-bottom: 0
+      .label-checkbox
+        width: 14%
+        &:last-of-type
+          width: 24.3%
+  &-contacts
+    &__wrap
+      margin-top: 6rem
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      label
+        &:not(:last-child)
+          margin-bottom: 0
+    &__block
+      display: flex
+      align-items: center
+      margin-top: 4rem
+      &-title
+        font-size: 1.6rem
+        font-weight: 500
+        color: #B1B6C8
+        margin-right: 5.8rem
+      &-pick
+        display: flex
+        align-items: center
+        label
+          width: auto
+          display: inline-flex
+          align-items: center
+          font-size: 1.5rem
+          color: #20242C
+          cursor: pointer
+          &:not(:last-child)
+            margin-bottom: 0
+            margin-right: 5rem
+          input
+            &:checked ~ span::before
+              background: #4067F0
+          span
+            width: 2.5rem
+            height: 2.5rem
+            flex-shrink: 0
+            border-radius: 50%
+            background: #ECECEC
+            margin-right: 1rem
+            position: relative
+            &::before
+              content: ''
+              position: absolute
+              inset: .5rem
+              background: #ECECEC
+              border-radius: inherit
+              border: .2rem solid #fff
+  .data
+    &__items
+      margin-bottom: 5.5rem
+    &__count
+      display: none
+    &__img
+      order: -1
+      margin-right: 2rem
+  &-stages
+    width: 22.7%
+    height: 100%
+    position: relative
+    &__banner
+      position: absolute
+      top: 0
+      left: 50%
+      transform: translate(-50%, -3.7rem)
+      width: 9.6rem
+      height: 11.8rem
+      padding-top: 1.8rem
+      border-radius: 10rem
+      background: #4067F0
+      z-index: 2
+      &::before
+        content: ''
+        position: absolute
+        top: 1.5rem
+        left: -2.9rem
+        width: 3.7rem
+        height: 2.2rem
+        background: #E4E7F3
+        border-bottom-right-radius: 100% 2rem
+        box-shadow: 0.5rem 1rem 0 0 #4067F0
+      &::after
+        content: ''
+        position: absolute
+        // top: 1.7rem
+        // right: -3.2rem
+        // width: 3.7rem
+        // height: 2rem
+        top: 1.5rem
+        right: -2.9rem
+        width: 3.7rem
+        height: 2.2rem
+        background: #E4E7F3
+        // border-bottom-left-radius: 100% 1.3rem
+        border-bottom-left-radius: 100% 2rem
+        box-shadow: -0.5rem 1rem 0 0 #4067F0
+      &-corner
+        display: none
+        position: absolute
+        top: 0
+        left: -3.2rem
+        width: 3.7rem
+        height: 3.7rem
+        background: #4067F0
+        &::before
+          content: ''
+          display: block
+          height: 100%
+          background: #E4E7F3
+          border-bottom-right-radius: 100% 1.2rem
+        &.corner-right
+          left: auto
+          right: -3.2rem
+          &::before
+            height: 100%
+            border-radius: 0
+            border-bottom-left-radius: 100% 1.2rem
+      &-img
+        margin: 0 auto
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 6.9rem
+        height: 6.9rem
+        border-radius: 50%
+        background: #F1F4FF
+        img
+          width: 2.7rem
+    &__content
+      padding: 11.5rem 5rem 5.5rem
+      background: #4067F0
+      border-radius: 3.1rem
+      position: relative
+      z-index: 1
+      overflow: hidden
+      &::before
+        content: ''
+        position: absolute
+        top: -2rem
+        left: -7rem
+        width: 19.8rem
+        height: 19.8rem
+        border-radius: 50%
+        background: linear-gradient(216.96deg, rgba(223, 228, 250, 0.4) 24.31%, rgba(64, 103, 240, 0.4) 79.11%)
+        transform: rotate(-75deg)
+        z-index: -1
+      &::after
+        content: ''
+        position: absolute
+        bottom: -2rem
+        right: -3.5rem
+        width: 16.2rem
+        height: 16.2rem
+        border-radius: 50%
+        background: linear-gradient(244.94deg, rgba(223, 228, 250, 0.4) -45.89%, rgba(64, 103, 240, 0.4) 54.73%)
+        transform: rotate(-112.84deg)
+        z-index: -1
+    &__item
+      display: flex
+      align-items: center
+      &s
+        margin-bottom: 6.2rem
+      &:not(:last-child)
+        margin-bottom: 6rem
+        .announcement-stages__item-img
+          position: relative
+          &::after
+            content: ''
+            position: absolute
+            top: calc(100% + 1.7rem)
+            left: 50%
+            transform: translateX(-50%)
+            width: .4rem
+            height: 3.1rem
+            background: #fff
+            border-radius: 1rem
+      &.active
+        .announcement-stages__item-img
+          background: #fff url(../images/announcement/check.svg) 50% no-repeat
+          background-size: 1.8rem
+          border-color: #fff
+          img
+            display: none
+      &-img
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 4.1rem
+        height: 4.1rem
+        border-radius: 50%
+        border: .2rem solid #E3E9FF
+        box-shadow: .9rem .9rem 3.5rem rgba(39, 138, 230, 0.3)
+        flex-shrink: 0
+        margin-right: 2rem
+        img
+          width: 2rem
+      &-name
+        font-size: 1.7rem
+        font-weight: 700
+        color: #fff
+    &__link
+      display: inline-block
+      padding-right: 6rem
+      font-size: 1.5rem
+      font-weight: 700
+      color: #fff
+      position: relative
+      &-suptitle
+        font-weight: 500
+      &::after
+        content: ''
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 0
+        width: 4rem
+        height: 4rem
+        border-radius: 50%
+        background: #fff url(../images/announcement/link-arrow.svg) 50% no-repeat
+        background-size: .9rem
+        box-shadow: .9rem .9rem 3.5rem rgba(39, 138, 230, 0.3)
+
+  &.announcement-promotion
+    .announcement
+      &-content
+        width: 71%
+        padding-top: 3.5rem
+      &-promotion
+        &__header
+          margin-bottom: 5.5rem
+          .announcement-switch
+            label
+              padding: 4.4rem 13rem 3rem 8.8rem
+              border-radius: 3rem
+              &.promotion-switch-checked
+                background: #4067F0
+              input:checked 
+                & ~ .announcement-switch__item-text
+                  .announcement-switch__item-title, .announcement-switch__item-description
+                    color: #fff
+                & ~ .announcement-switch__item-banner-wrap
+                  background: #4067F0
+                  .announcement-switch__item-banner
+                    background: #1F42BD
+                    &::before
+                      box-shadow: 0.5rem 1rem 0 0 #4067F0
+                    &::after
+                      box-shadow: -0.5rem 1rem 0 0 #4067F0
+              .announcement-switch__item
+                &-banner
+                  width: 7.8rem
+                  height: 7.8rem
+                  box-shadow: none
+                  background: #E4E7F3
+                  margin-right: 0
+                  img
+                    width: 5.1rem
+                  &::before
+                    content: ''
+                    position: absolute
+                    top: 1.3rem
+                    left: -2.8rem
+                    width: 4rem
+                    height: 2.2rem
+                    background: #E4E7F3
+                    border-bottom-right-radius: 100% 2rem
+                    box-shadow: 0.5rem 1rem 0 0 #fff
+                  &::after
+                    content: ''
+                    position: absolute
+                    top: 1.3rem
+                    right: -2.8rem
+                    width: 4rem
+                    height: 2.2rem
+                    background: #E4E7F3
+                    border-bottom-left-radius: 100% 2rem
+                    box-shadow: -0.5rem 1rem 0 0 #fff
+                  &-wrap
+                    position: absolute
+                    top: -3.5rem
+                    right: 5rem
+                    background: #fff
+                    border-radius: 50%
+                    padding: 1.1rem 2.1rem
+                &-title
+                  font-size: 2.7rem
+                  margin-bottom: 1rem
+                &-description
+                  font-size: 1.7rem
+                  font-weight: 600
+                  line-height: 1.17
+                  color: #A3A8BD
+        &__body
+          margin-bottom: 3rem
+          label
+            align-items: center
+            &:not(:last-child)
+              margin-bottom: 3rem
+    .announcement-switch
+      width: 100%
+      &__wrap
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: unset
+        background: none
+      label
+        min-height: 12.7rem
+        padding: 3.1rem 13rem 3.1rem 8.8rem
+        background: #fff
+        border-radius: 4rem
+        cursor: pointer
+        input
+          &:checked ~ span::before
+            background: #4067F0
+        >span
+          left: 3.5rem
+          transform: translateY(-50%)
+          width: 2.5rem
+          height: 2.5rem
+          border-radius: 50%
+          background: #ECECEC
+          &::before
+            content: ''
+            position: absolute
+            inset: .5rem
+            background: #ECECEC
+            border-radius: inherit
+            border: .2rem solid #fff
+      &__item
+        &-banner
+          width: 5rem
+          height: 5rem
+          border-radius: 50%
+          background: #F04075
+          box-shadow: .9rem .9rem 3.4rem rgba(230, 39, 131, 0.3)
+          display: flex
+          justify-content: center
+          align-items: center
+          flex-shrink: 0
+          font-size: 1.8rem
+          font-weight: 700
+          color: #FFEAF1
+          margin-right: 2.7rem
+          img
+            // width: 5.1rem
+            width: 1.7rem
+          &.empty-banner
+            background: #EEF0FC
+            box-shadow: 0 2rem 9rem rgba(119, 117, 142, 0.25)
+            img
+              width: 1.7rem
+        &-title
+          font-size: 2.3rem
+          font-weight: 700
+          color: #20242C
+          margin-bottom: .5rem
+        &-description
+          font-size: 1.8rem
+          font-weight: 500
+          line-height: 1.56
+          color: #9EA5B2
+        &-price
+          position: absolute
+          top: 50%
+          right: 6.8rem
+          transform: translateY(-50%)
+          font-size: 2.3rem
+          font-weight: 700
+          color: #20242C
+          sup
+            font-size: 1.3rem
+          .item-price__mobile
+            display: none
+
+  &.announcement-promotion-appearance
+    .recomendation__items
+      width: 50%
+      height: 100%
+    .announcement
+      &-content
+        width: 46.5%
+        padding-top: 0
+      &-promotion__body
+        margin-bottom: 4.5rem
+      &-switch
+        label
+          min-height: 15.7rem
+          // flex-direction: column
+          // align-items: flex-start
+          padding-right: 6rem
+          &:not(:last-child)
+            flex-direction: column
+            align-items: flex-start
+            margin-bottom: 5rem
+        &__item
+          &-banner
+            position: absolute
+            top: 0
+            right: 3.5rem
+            transform: translateY(-50%)
+          &-title
+            margin-bottom: 0.8rem
+          &-description
+            font-size: 1.6rem
+          &-price:not(.price-empty)
+            position: static
+            transform: none
+            padding: .7rem 2rem .3rem
+            background: #4067F0
+            border-radius: 1.1rem
+            color: #fff
+            margin-top: 2.2rem
+          &:last-child
+            .announcement-switch__item-title
+              margin-bottom: 0
+
+@media (max-width: 48em)
+  .announcement
+    margin: 6.5rem 0 13.5rem
+    &-title
+      font-size: 6rem
+      margin-bottom: 5.2rem
+    .announcement-label__title
+      top: -8rem
+      font-size: 3.2rem
+      span
+        margin-left: 1.3rem
+        width: 3.2rem
+        height: 3.2rem
+        font-size: 2.8rem
+    label
+      width: 100%
+      &:not(:last-child)
+        margin-bottom: 12rem
+      // &.wide
+      //   width: 100%
+      &.s-wide
+        width: 100%
+      &.ss-wide
+        width: 100%
+      &.narrow
+        width: 100%
+      &.label-price
+        &::after
+          right: 6rem
+          font-size: 3.8rem
+      &.label-rent
+        &::after
+          right: 6rem
+          font-size: 3rem
+      &.label-salary
+        margin-bottom: 2rem
+        &-time
+          margin-top: 2rem
+      &.label-checkbox
+        font-size: 3.2rem
+        span
+          width: 10rem
+          height: 10rem
+          margin-right: 2.6rem
+          &::before
+            width: 3.6rem
+            height: 2.8rem
+      input, textarea
+        height: 10rem
+        padding: 0 8.6rem 0 5.6rem
+        border-radius: 6rem
+        font-size: 3.2rem
+      textarea
+        height: 36rem
+        // padding: 4.7rem 12rem 4.7rem 6rem
+        padding: 4.7rem 7rem 4.7rem 6rem
+        font-size: 3rem
+        line-height: 2
+    &-switch
+      width: 100%
+      &:not(:last-child)
+        margin-bottom: 12rem
+      label
+        &:not(:last-child)
+          margin-bottom: 0
+        >span
+          font-size: 3rem
+    &-filter
+      width: 100%
+      .select
+        &-text
+          height: 10rem
+          padding: 0 10rem 0 6rem
+          border-radius: 10rem
+          font-size: 3.2rem
+          &::after
+            right: 5.5rem
+            width: 3.2rem
+            height: 1.6rem
+        &-dropdown
+          padding: 4rem 6rem
+          border-radius: 6rem
+          li
+            font-size: 3rem
+            &:not(:last-child)
+              margin-bottom: 3rem
+            &.active
+              &::after
+                width: 3.4rem
+                height: 2.6rem
+    &-content
+      width: 100%
+      &__block
+        padding: 7rem 3.5rem
+        border-radius: 6rem
+        &:not(:last-child)
+          margin-bottom: 5rem
+        &-wrap
+          padding-top: 6.5rem
+      &__title
+        font-size: 4rem
+        margin-bottom: 6.5rem
+      &__subtitle
+        font-size: 3rem
+        margin: -3rem 0 5.5rem
+      &__category
+        position: relative
+        label
+          &:not(:last-child)
+            margin-bottom: 2.6rem
+        &-all
+          border-radius: 7.8rem
+          // &-wrap
+          //   display: block
+          &-link
+            padding: 3.6rem 4.6rem
+            font-size: 3.4rem
+            &::after
+              right: 3rem
+              width: 3.6rem
+              height: 1.8rem
+          &-img
+            width: 7.8rem
+            height: 7.8rem
+            margin-right: 4rem
+            img
+              width: 3.8rem
+        &-subcategory
+          display: block
+          padding: 5.5rem 5rem
+          border-radius: 4rem
+          &-back
+            width: 6.2rem
+            height: 6.2rem
+            margin-right: 5.2rem
+            img
+              width: 1.6rem
+          &-list
+            &.active
+              display: block
+          &-wrap
+            margin-top: 6rem
+            display: block
+          li
+            font-size: 3.4rem
+            margin: 0
+            &:not(:last-child)
+              margin-bottom: 4.7rem
+            &.active
+              align-items: flex-start
+              margin-bottom: 0
+        &-block
+          padding: 5.5rem 2rem
+          border-radius: 4.6rem
+          // position: relative
+        &-name
+          max-width: none
+        &-img
+          width: 7.8rem
+          height: 7.8rem
+          margin-right: 3rem
+          img
+            width: 3.8rem
+        &-list
+          font-size: 3.4rem
+          margin-bottom: .5rem
+          li
+            &:not(:last-child)
+              margin-right: 3rem
+              &::after
+                right: -2rem
+                width: 0.6rem
+                height: 0.6rem
+        &-description
+          font-size: 2.6rem
+        &-more
+          position: absolute
+          // top: -13.8rem
+          // right: .5rem
+          top: 4.5rem
+          right: 4rem
+          display: flex
+          justify-content: center
+          align-items: center
+          width: 10.4rem
+          height: 10.4rem
+          border-radius: 50%
+          background: #4067F0
+          box-shadow: 1rem 1rem 4rem rgba(39, 115, 230, 0.15)
+          span
+            display: none
+          img
+            display: block
+            width: 4.8rem
+      &__appearance
+        &.appearance-apartment
+          .announcement-content__appearance-block
+            margin-bottom: 0
+        &.appearance-work
+          .announcement-content__appearance-block
+            margin-bottom: -1rem
+        &-block
+          margin: 12.1rem 0
+          label
+            width: 21rem
+            height: 21rem
+            border-radius: 2rem
+            &::after
+              width: 8.2rem
+              height: 8.2rem
+        &-photo
+          margin-right: 0
+          margin-bottom: 1.4rem
+          &:not(:nth-child(3n))
+            margin-right: 3.6rem
+          &.appearance-photo-main
+            &::after
+              content: none
+          &s
+            max-width: none
+          &-remove
+            display: flex
+            top: 1rem
+            right: 1rem
+            width: 6.5rem
+            height: 6.5rem
+            img
+              width: 4.5rem
+          &-img
+            width: 21rem
+            height: 21rem
+            img
+              border-radius: 2rem
+        &-inputs
+          flex-wrap: wrap
+          align-items: flex-start
+          label
+            &:not(:last-child)
+              margin-bottom: 12rem !important
+      &__place
+        &-search
+          margin: 13.3rem 0 5rem
+          &-btn
+            background: #EEF0FC
+            right: 4rem
+            width: 5rem
+            img
+              width: 4.5rem
+        &-map
+          height: 62.8rem
+          border-radius: 6rem
+      &__save
+        padding: 7.5rem 4rem
+        &.announcement-content__save-descr
+          flex-wrap: wrap
+          padding-bottom: 7.2rem
+          .announcement-content__save-btn.announcement-save__btn-edit
+            transform: none
+            position: absolute
+            top: 24rem
+            left: 4rem
+            font-size: 3.2rem
+            .announcement-content__save-btn
+              &-img
+                width: 6.2rem
+                height: 6.2rem
+                img
+                  width: 1.8rem
+              &-text
+                display: block
+        &-btn
+          font-size: 3rem
+          &.announcement-save__btn-edit
+            .announcement-content__save-btn
+              &-img
+                display: flex
+              &-text
+                display: none
+            img
+              width: 2.8rem
+          &-img
+            display: none
+            width: 10rem
+            height: 10rem
+            box-shadow: 2rem 2rem 8rem rgba(39, 115, 230, 0.15)
+            margin-right: 2.8rem
+            img
+              width: 1.8rem
+        &-next
+          width: 34.6rem
+          height: 10rem
+          box-shadow: 2rem 2rem 8rem rgba(39, 115, 230, 0.15)
+          font-size: 3.2rem
+        &-description
+          margin: 3.5rem -2rem 0 -1rem
+          font-size: 2.8rem
+      &__brand, &__model
+        .announcement-label__title
+          display: none
+      &__car-parameters
+        padding-bottom: 7rem
+      &__plate
+        &-number
+          &s
+            padding-bottom: 7rem
+          label
+            &:first-of-type
+              width: 60%
+              &::after
+                width: .3rem
+            &:last-of-type
+              width: 40%
+            input
+              height: 19.2rem
+              border-radius: 4.6rem
+              padding: 0 4rem 0 5.5rem
+              font-size: 5.2rem
+      &__story
+        padding-bottom: 7rem
+        &-block
+          width: 100%
+          label.ss-wide
+            width: 48.5%
+        label.label-checkbox
+          margin-top: -8rem
+      &__description
+        label
+          textarea
+            height: 37.6rem
+      &__options
+        padding-bottom: 0
+        &.other-options
+          .announcement-content__options
+            &-body
+              label
+                &:not(:nth-child(4n))
+                  margin-right: 0
+            &-title
+              margin-bottom: 5rem
+        &-wrap
+          padding-top: 0
+          margin-top: -1.5rem
+        &-title
+          font-size: 3.6rem
+          margin-bottom: 11rem
+        .label-group
+          margin-bottom: 4rem
+          label
+            &:nth-last-child(-n+4)
+              margin-bottom: unset
+            &:not(:last-child)
+              margin-bottom: 11.2rem
+        &-item
+          padding-bottom: 5.2rem
+          &:not(:last-child)
+            border-width: .3rem
+            margin-bottom: 8.2rem
+          &:last-child
+            padding-bottom: 3rem
+          &.item-review
+            .announcement-content__options-title
+              margin-bottom: 4rem
+            label
+              margin-bottom: 4rem
+              &:not(.label-checkbox)
+                order: +1
+        label
+          &.label-checkbox
+            margin-bottom: 4rem
+      &__apartment
+        padding-bottom: 7rem
+      &__deal
+        padding-bottom: 7rem
+      &__parameters
+        &.announcement-content__parameters-service
+          .label-textarea
+            margin-top: 0
+        &.announcement-content__parameters-work
+          padding-bottom: 7rem
+        &-block
+          width: 100%
+          label
+            width: 37%
+            .select
+              &-text
+                padding: 0 3rem
+                &::after
+                  right: 3.5rem
+              &-dropdown
+                padding: 4rem 3rem
+      &__requirements
+        padding-bottom: 7rem
+        label
+          &:not(:last-child)
+            margin-bottom: 4rem
+        .label-checkbox
+          width: 100%
+          &:not(:last-child)
+            margin-bottom: 4rem
+          &:last-of-type
+            width: 100%
+    &-contacts
+      &__wrap
+        margin-top: 13.5rem
+        >label
+          &:not(:last-child)
+            margin-bottom: 12rem
+        .announcement-switch
+          display: none
+      &__block
+        flex-wrap: wrap
+        margin-top: -7.5rem
+        &-title
+          font-size: 3.2rem
+          margin-bottom: 3.5rem
+        &-pick
+          display: block
+          label
+            width: auto
+            font-size: 3rem
+            &:not(:last-child)
+              margin-bottom: 4rem
+              margin-right: 20rem
+            span
+              width: 5rem
+              height: 5rem
+              margin-right: 2rem
+              &::before
+                inset: 1rem
+                border-width: .4rem
+    .data
+      &__items
+        margin-bottom: 9.5rem
+      &__count
+        display: block
+    &-stages
+      display: none
+
+    &.announcement-promotion
+      .advertising__our
+        display: none
+      .announcement
+        &-content
+          width: 100%
+          padding-top: 9.5rem
+        &-promotion
+          &__header
+            margin-bottom: 11.5rem
+            .announcement-switch
+              label
+                width: 48%
+                text-align: center
+                padding: 10.3rem 3rem 7.5rem
+                border-radius: 6rem
+                > span
+                  left: 50%
+                  top: auto
+                  bottom: 3rem
+                  transform: translateX(-50%)
+                .announcement-switch__item
+                  &-banner
+                    width: 10.4rem
+                    height: 10.4rem
+                    img
+                      width: 6.8rem
+                    &::before
+                      top: 2.4rem
+                    &::after
+                      top: 2.4rem
+                    &-wrap
+                      top: 0
+                      right: 50%
+                      transform: translate(50%, -33%)
+                      padding: 1.8rem 1.6rem
+                  &-title
+                    font-size: 4rem
+                    margin-bottom: 2rem
+                  &-description
+                    font-size: 2.8rem
+                    font-weight: 500
+                    line-height: 1.43
+          &__body
+            margin-bottom: 7.5rem
+            label
+              &:not(:last-child)
+                margin-bottom: 8rem
+      .announcement-switch
+        label
+          min-height: 25.4rem
+          padding: 5rem 5rem 5rem 10rem
+          border-radius: 5.4rem
+          >span
+            left: 3.2rem
+            width: 4rem
+            height: 4rem
+            &::before
+              inset: .8rem
+              border-width: .4rem
+        &__item
+          &-banner
+            width: 7.6rem
+            height: 7.6rem
+            box-shadow: 1.8rem 1.8rem 6.8rem rgba(230, 39, 131, 0.3)
+            font-size: 3.4rem
+            margin-right: 3rem
+            img
+              width: 3.4rem
+            &.empty-banner
+              img
+                width: 3rem
+          &-title
+            font-size: 3.6rem
+            margin-bottom: 1rem
+          &-description
+            font-size: 3rem
+            line-height: 1.33
+          &-price
+            top: 0
+            right: 6rem
+            transform: translateY(-50%)
+            width: 17.4rem
+            height: 7.6rem
+            display: flex
+            justify-content: center
+            align-items: center
+            background: #4067F0
+            border-radius: 3rem
+            font-size: 4rem
+            color: #fff
+            sup
+              position: relative
+              left: 1.5rem
+              top: -1rem
+              font-size: 2.2rem
+            .item-price__desktop
+              display: none
+            .item-price__mobile
+              display: block
+              sup
+                position: static
+
+    &.announcement-promotion-appearance
+      .announcement-title
+        width: 85%
+        line-height: 1.54
+      .recomendation__items
+        width: 100%
+      .announcement
+        &-wrap
+          flex-wrap: wrap
+          margin-top: 21rem
+        &-content
+          width: 100%
+          padding-top: 11rem
+          &__save-next
+            width: 100%
+        &-promotion__body
+          margin-bottom: 7.5rem
+        &-switch
+          label
+            min-height: auto
+            padding-bottom: 3rem
+            &:not(:last-child)
+              margin-bottom: 9rem
+            &:last-child
+              flex-wrap: wrap
+            span
+              top: 7.5rem
+          &__item
+            &-banner
+              right: 2rem
+              transform: translateY(-33%)
+              width: 8.4rem
+              height: 8.4rem
+            &-title
+              margin-bottom: 1.3rem
+            &-description
+              font-size: 3rem
+            &-price
+              &:not(.price-empty)
+                width: auto
+                height: auto
+                padding: 0
+                background: none
+                border-radius: 0
+                color: #4067F0
+                margin-top: 1rem
+                font-size: 3.6rem
+                sup
+                  left: 1rem
+              &.price-empty
+                width: auto
+                height: auto
+                padding: 0
+                background: none
+                border-radius: 0
+                color: #4067F0
+                position: static
+                margin-top: 1.5rem
+                font-size: 3.6rem

@@ -1,0 +1,33 @@
+%Gilroy-700 {
+  font-family: 'Gilroy';
+  font-weight: 700;
+}
+
+%Gilroy-600 {
+  font-family: 'Gilroy';
+  font-weight: 600;
+}
+
+%Gilroy-500 {
+  font-family: 'Gilroy';
+  font-weight: 500;
+}
+
+%Gilroy-400 {
+  font-family: 'Gilroy';
+  font-weight: 400;
+}
+
+%checkbox-hidden {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+
+%link-style {
+  outline: transparent;
+  border-bottom: 1px solid transparent;
+  transition: border 0.3s, color 0.3s;
+}

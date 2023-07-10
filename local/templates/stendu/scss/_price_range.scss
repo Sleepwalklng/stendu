@@ -1,0 +1,75 @@
+.irs--round {
+	height: 9rem;
+
+	.irs {
+		&-line {
+			top: 3.6rem;
+			height: 0.4rem;
+			background-color: #D5DBF0;
+		}
+
+		&-bar {
+			top: 3.6rem;
+			height: .4rem;
+			background-color: #4067F0;
+		}
+
+		&-to,
+		&-from {
+			top: 5rem;
+			left: 0 !important;
+			visibility: visible !important;
+			background: none;
+			font-size: 1.5rem;
+			line-height: 3rem;
+			font-weight: 700;
+			color: #20242C;
+
+			&::before {
+				content: 'от ';
+				position: static;
+				display: inline;
+				width: unset;
+				height: unset;
+				margin: 0;
+				border: none;
+			}
+		}
+
+		&-to {
+			left: auto !important;
+			right: 0 !important;
+
+			&::before {
+				content: 'до ';
+			}
+		}
+
+		&-single {
+			display: none !important;
+		}
+
+		&-handle {
+			top: 2.5rem;
+			width: 2.6rem;
+			height: 2.6rem;
+			border: .4rem solid #fff;
+			border-radius: 500px;
+			background: #4067F0;
+			box-shadow: .8595rem .8595rem 2rem rgba(39, 138, 230, 0.3);
+			cursor: grab;
+
+			&.state_hover,
+			&:hover {
+				background: #4067F0;
+			}
+		}
+
+		.irs--round .irs-line {
+    top: 36px;
+    height: 4px;
+    background-color: #dee4ec;
+    border-radius: 4px;
+}
+	}
+}

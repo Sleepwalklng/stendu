@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "thermal-rain-372306",
+  "private_key_id": "f24e269fe1d960da7e78f8266a90974eb06e0f4e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDqYjsHwXYZdLtA\nexCdIPqhANw6Gw6uGFEVCpEecF44xffUznM92P/CbytyQiU9fpHRPK8//AcexoxG\nTJyOLfES0zJuZgcZzKX64DAVaEKVmE8lOx1UtKd+eVkaoUkuob17Jjne58Ai2k63\nceAKqTRXOmmPuR9sSJLzhFR213Xd2yxRIvj34zjFOrUK+nFtZ1rjS2ml0Oejl2f4\n4vV1xlIvv0AsjkKV7dcdUKYAifV2kKwY7wy2emMi+4pHRbzYOaJRATdWzTzNOSQ2\ntmYjLjC5hscKCb70t1XdMEV9JEdorNT2IUsnVYmT1b6/zBgtXj/GDy3H6pWvQ2BP\n9TK+qAObAgMBAAECggEAQWEfSD2N3PHz3bu2Wa4+WzTrOYYcpTGBRJZK/qunjLyk\nMgdYnBLw3OK3wspyquGoeS4tUHLT5aDKtj1emkZ0baTd92+cYXT1g7KPlxkbIbF3\nulHwD5XI9v2Qfl4pFMnnGfgCwovwy4gL1x37ud2TDRXtJjskaccgvq7WBMR7S2P0\nG5hz3ea1kc6klfQVJykfPY6UXuz8A1UTpurZgx74A3IaTQuM0y6vnW86q/MSlR6E\nggfPNAwAla5Ncz9KxE4fF689vLsfVDONBpEDcffcVTXCmMzN9nDE5vMXG34u3nBI\n29UmTt9aAOSjOsIulOn/kGvOwtpXFacbGP7V6JQKOQKBgQD6LZT2Yr4imYghTOqV\nVuMl6S3pxrYHMtZoTHAMnoVBquxUUusxCrO6+GqLEE4S0NqWdzBpWYX838nVLmNp\nKTJgMV+Zkhl0Yb+Y2OGmnukUE1XgCI906sdVvVABW0Y6lbS7lJIdau/VRT99y8Z6\nBTWJG8NSJfBRPSaLRdjUtrvXnwKBgQDv1o4Wb0yOYmuzCDrOq0l0yC5OCiITT6Xq\nfHq+28GvkOhLWkpNLMsiWJaehyBcXS9nKssncnmw5GQsscBIrrjKXg4DJ6dcYJ+o\nt2leRp8tzXhIDpRW2UPD6bXOcBLPhYbq9R1+0QeEjR46IL5kAzWaqod4AHVjUuVa\ndufiFEZChQKBgHCuQx/OTbEr0cKd8DKfVePnaMSYubf4T9XeR8GHTKHNKHC6gDAw\nj88wwFwuVdvnsex/dpCcv9qruS6JnEDrS0NEObjjsw9WT4O6e7gebwCZzN4BPQv+\nCxY1FGnoAHO2phauzjjtx2QZsoUoWRbwbbJ5jLndWKZekpO8O/Ni8qwlAoGAfVgp\nnCoA3a0sUj3r1hUI5+Ky6JA9LNCEit8Rm2voduQJs0/14w2VAFdCKInAbOU6n/Vq\nhSw70yoZ/I3NS28dHo43TojL2+iXqKpqhB3ulRZ8VVRhTF5yHxKmtMQ34IMNdwAx\nsRR3lFvYP1LbjhNrUXDsKdg7gXRSb4wTNkGYUq0CgYEA+I1gXbalc7mJDfT2BdXu\nhXYJxi1FWoTvbpXUXP1IGJb2ZcQ9comTE4EJnYn4ulqJlkyyG+PBbtVY8FLN9vZl\nd7ofOWg+/E4XTwt5hgl+wl7ACqb6vWfRCYIAOG8F8hVTdH7XMxC8aRUAnHtIf4DQ\ndhuQRGbp+D9gFysMKZttsKg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "apitranslation@thermal-rain-372306.iam.gserviceaccount.com",
+  "client_id": "110358669191352716390",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/apitranslation%40thermal-rain-372306.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

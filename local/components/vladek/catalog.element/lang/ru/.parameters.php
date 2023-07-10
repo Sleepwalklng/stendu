@@ -1,0 +1,6 @@
+<?
+$MESS["VLADEK_CATALOG_SECTION_COMPONENT_IBLOCK_TYPE"] = "Выберите тип инфоблока";
+$MESS["VLADEK_CATALOG_SECTION_COMPONENT_IBLOCK_ID"] = "Выберите инфоблок";
+
+
+?>

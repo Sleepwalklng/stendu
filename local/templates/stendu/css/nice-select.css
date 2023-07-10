@@ -1,0 +1,140 @@
+.nice-select {
+  background-color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  height: 4.2rem;
+  line-height: 4rem;
+  outline: none;
+  padding-left: 0.5rem;
+  padding-right: 3rem;
+  text-align: left !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  white-space: nowrap;
+  width: auto; }
+
+  .nice-select:after {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    content: '';
+    display: block;
+    height: 1rem;
+    margin-top: -0.8rem;
+    pointer-events: none;
+    position: absolute;
+    right: 2.6rem;
+    top: 50%;
+    -webkit-transform-origin: 66% 66%;
+        -ms-transform-origin: 66% 66%;
+            transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: 1rem; }
+  .nice-select.open:after {
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg); }
+  .nice-select.open .list {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+        -ms-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0); }
+
+
+  .nice-select .list {
+    background-color: #fff;
+
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    opacity: 0;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-2.1rem);
+        -ms-transform: scale(0.75) translateY(-2.1rem);
+            transform: scale(0.75) translateY(-2.1rem);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9; }
+    .nice-select .list:hover .option:not(:hover) {
+      background-color: transparent !important; }
+  .nice-select .option {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-left: 2.8rem;
+    padding-right: 2.5rem;
+    font-weight: bold;
+    line-height: 4rem;
+    list-style: none;
+    min-height: 4rem;
+    outline: none;
+    text-align: left;
+    -webkit-transition: all 0.2s;
+
+    transition: all 0.2s; }
+
+
+    .nice-select .option:after {
+      content: '';
+      display: block;
+      width: 1.9rem;
+      height: 1.5rem;
+      background-image: url("../images/announcements-check.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0;
+      transition: opacity 0.15s ease-out; }
+
+    .nice-select .option:first-child {
+      padding-top: 1.5rem; }
+
+    .nice-select .option:last-child {
+      padding-bottom: 1.5rem; }
+
+    .nice-select .option.selected:after {
+      opacity: 1; }
+
+
+
+@media (max-width: 48em) {
+    .nice-select {
+        width: 100%;
+        height: 10rem;
+        line-height: 6rem;
+        font-size: 3.2rem;
+    }
+    .nice-select .option:after {
+        width: 4rem;
+        height: 2.8rem;
+    }
+    .nice-select .option {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .nice-select .option:first-child {
+      padding-top: 2.5rem; }
+
+    .nice-select .option:last-child {
+      padding-bottom: 2.5rem; }
+}

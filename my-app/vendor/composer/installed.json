@@ -1,0 +1,111 @@
+{
+    "packages": [
+        {
+            "name": "basebuy/basebuy-sdk-php",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bigperson/basebuy-auto-sdk-php.git",
+                "reference": "11accf9ea4a0115962f164baa844cee818c96218"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bigperson/basebuy-auto-sdk-php/zipball/11accf9ea4a0115962f164baa844cee818c96218",
+                "reference": "11accf9ea4a0115962f164baa844cee818c96218",
+                "shasum": ""
+            },
+            "require": {
+                "php-curl-class/php-curl-class": "^4.11"
+            },
+            "time": "2017-08-09T22:18:24+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "basebuy\\basebuyAutoApi\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Ognev",
+                    "email": "info@basebuy.ru"
+                }
+            ],
+            "description": "Wrapper for BasebuyAutoApi",
+            "support": {
+                "source": "https://github.com/bigperson/basebuy-auto-sdk-php/tree/1.0.0"
+            },
+            "install-path": "../basebuy/basebuy-sdk-php"
+        },
+        {
+            "name": "php-curl-class/php-curl-class",
+            "version": "4.13.0",
+            "version_normalized": "4.13.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-curl-class/php-curl-class.git",
+                "reference": "debe0a89ee1eb9a2f15c0bb63ce8b347130af50d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/debe0a89ee1eb9a2f15c0bb63ce8b347130af50d",
+                "reference": "debe0a89ee1eb9a2f15c0bb63ce8b347130af50d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "time": "2016-07-25T19:31:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Curl\\": "src/Curl/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Zach Borboa"
+                }
+            ],
+            "description": "PHP Curl Class is an object-oriented wrapper of the PHP cURL extension.",
+            "homepage": "https://github.com/php-curl-class/php-curl-class",
+            "keywords": [
+                "api",
+                "class",
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "json",
+                "php",
+                "requests",
+                "rest",
+                "restful",
+                "web service",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/php-curl-class/php-curl-class/issues",
+                "source": "https://github.com/php-curl-class/php-curl-class/tree/master"
+            },
+            "install-path": "../php-curl-class/php-curl-class"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

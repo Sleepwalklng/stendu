@@ -1,0 +1,1340 @@
+{
+    "Worksheet": [
+        {
+            "id_car_mark": "1",
+            "name": "AC"
+        },
+        {
+            "id_car_mark": "2",
+            "name": "Acura"
+        },
+        {
+            "id_car_mark": "3",
+            "name": "Alfa Romeo"
+        },
+        {
+            "id_car_mark": "4",
+            "name": "Alpine"
+        },
+        {
+            "id_car_mark": "5",
+            "name": "AM General"
+        },
+        {
+            "id_car_mark": "6",
+            "name": "Ariel"
+        },
+        {
+            "id_car_mark": "7",
+            "name": "Aro"
+        },
+        {
+            "id_car_mark": "8",
+            "name": "Asia"
+        },
+        {
+            "id_car_mark": "9",
+            "name": "Aston Martin"
+        },
+        {
+            "id_car_mark": "10",
+            "name": "Audi"
+        },
+        {
+            "id_car_mark": "11",
+            "name": "Austin"
+        },
+        {
+            "id_car_mark": "12",
+            "name": "Autobianchi"
+        },
+        {
+            "id_car_mark": "13",
+            "name": "Baltijas Dzips"
+        },
+        {
+            "id_car_mark": "14",
+            "name": "Beijing"
+        },
+        {
+            "id_car_mark": "15",
+            "name": "Bentley"
+        },
+        {
+            "id_car_mark": "16",
+            "name": "Bertone"
+        },
+        {
+            "id_car_mark": "17",
+            "name": "Bitter"
+        },
+        {
+            "id_car_mark": "18",
+            "name": "BMW"
+        },
+        {
+            "id_car_mark": "20",
+            "name": "Brabus"
+        },
+        {
+            "id_car_mark": "21",
+            "name": "Brilliance"
+        },
+        {
+            "id_car_mark": "22",
+            "name": "Bristol"
+        },
+        {
+            "id_car_mark": "23",
+            "name": "Bufori"
+        },
+        {
+            "id_car_mark": "24",
+            "name": "Bugatti"
+        },
+        {
+            "id_car_mark": "25",
+            "name": "Buick"
+        },
+        {
+            "id_car_mark": "26",
+            "name": "BYD"
+        },
+        {
+            "id_car_mark": "27",
+            "name": "Byvin"
+        },
+        {
+            "id_car_mark": "28",
+            "name": "Cadillac"
+        },
+        {
+            "id_car_mark": "29",
+            "name": "Callaway"
+        },
+        {
+            "id_car_mark": "30",
+            "name": "Carbodies"
+        },
+        {
+            "id_car_mark": "31",
+            "name": "Caterham"
+        },
+        {
+            "id_car_mark": "32",
+            "name": "Changan"
+        },
+        {
+            "id_car_mark": "33",
+            "name": "ChangFeng"
+        },
+        {
+            "id_car_mark": "34",
+            "name": "Chery"
+        },
+        {
+            "id_car_mark": "35",
+            "name": "Chevrolet"
+        },
+        {
+            "id_car_mark": "36",
+            "name": "Chrysler"
+        },
+        {
+            "id_car_mark": "37",
+            "name": "Citroen"
+        },
+        {
+            "id_car_mark": "38",
+            "name": "Cizeta"
+        },
+        {
+            "id_car_mark": "39",
+            "name": "Coggiola"
+        },
+        {
+            "id_car_mark": "40",
+            "name": "Dacia"
+        },
+        {
+            "id_car_mark": "41",
+            "name": "Dadi"
+        },
+        {
+            "id_car_mark": "42",
+            "name": "Daewoo"
+        },
+        {
+            "id_car_mark": "44",
+            "name": "Daihatsu"
+        },
+        {
+            "id_car_mark": "45",
+            "name": "Daimler"
+        },
+        {
+            "id_car_mark": "46",
+            "name": "Dallas"
+        },
+        {
+            "id_car_mark": "47",
+            "name": "Datsun"
+        },
+        {
+            "id_car_mark": "48",
+            "name": "De Tomaso"
+        },
+        {
+            "id_car_mark": "49",
+            "name": "DeLorean"
+        },
+        {
+            "id_car_mark": "50",
+            "name": "Derways"
+        },
+        {
+            "id_car_mark": "51",
+            "name": "Dodge"
+        },
+        {
+            "id_car_mark": "52",
+            "name": "DongFeng"
+        },
+        {
+            "id_car_mark": "53",
+            "name": "Донинвест"
+        },
+        {
+            "id_car_mark": "54",
+            "name": "Donkervoort"
+        },
+        {
+            "id_car_mark": "55",
+            "name": "E-Car"
+        },
+        {
+            "id_car_mark": "56",
+            "name": "Eagle"
+        },
+        {
+            "id_car_mark": "57",
+            "name": "Eagle Cars"
+        },
+        {
+            "id_car_mark": "59",
+            "name": "FAW"
+        },
+        {
+            "id_car_mark": "60",
+            "name": "Ferrari"
+        },
+        {
+            "id_car_mark": "61",
+            "name": "Fiat"
+        },
+        {
+            "id_car_mark": "62",
+            "name": "Fisker"
+        },
+        {
+            "id_car_mark": "63",
+            "name": "Ford"
+        },
+        {
+            "id_car_mark": "64",
+            "name": "Foton"
+        },
+        {
+            "id_car_mark": "65",
+            "name": "FSO"
+        },
+        {
+            "id_car_mark": "66",
+            "name": "Fuqi"
+        },
+        {
+            "id_car_mark": "67",
+            "name": "Geely"
+        },
+        {
+            "id_car_mark": "68",
+            "name": "Geo"
+        },
+        {
+            "id_car_mark": "69",
+            "name": "GMC"
+        },
+        {
+            "id_car_mark": "70",
+            "name": "Gonow"
+        },
+        {
+            "id_car_mark": "71",
+            "name": "Great Wall"
+        },
+        {
+            "id_car_mark": "72",
+            "name": "Hafei"
+        },
+        {
+            "id_car_mark": "73",
+            "name": "Haima"
+        },
+        {
+            "id_car_mark": "74",
+            "name": "Hindustan"
+        },
+        {
+            "id_car_mark": "75",
+            "name": "Holden"
+        },
+        {
+            "id_car_mark": "76",
+            "name": "Honda"
+        },
+        {
+            "id_car_mark": "77",
+            "name": "HuangHai"
+        },
+        {
+            "id_car_mark": "78",
+            "name": "Hummer"
+        },
+        {
+            "id_car_mark": "79",
+            "name": "Hyundai"
+        },
+        {
+            "id_car_mark": "80",
+            "name": "Infiniti"
+        },
+        {
+            "id_car_mark": "81",
+            "name": "Innocenti"
+        },
+        {
+            "id_car_mark": "82",
+            "name": "Invicta"
+        },
+        {
+            "id_car_mark": "83",
+            "name": "Iran Khodro"
+        },
+        {
+            "id_car_mark": "84",
+            "name": "Isdera"
+        },
+        {
+            "id_car_mark": "85",
+            "name": "Isuzu"
+        },
+        {
+            "id_car_mark": "86",
+            "name": "IVECO"
+        },
+        {
+            "id_car_mark": "87",
+            "name": "JAC"
+        },
+        {
+            "id_car_mark": "88",
+            "name": "Jaguar"
+        },
+        {
+            "id_car_mark": "89",
+            "name": "Jeep"
+        },
+        {
+            "id_car_mark": "90",
+            "name": "Jensen"
+        },
+        {
+            "id_car_mark": "91",
+            "name": "JMC"
+        },
+        {
+            "id_car_mark": "92",
+            "name": "Kia"
+        },
+        {
+            "id_car_mark": "93",
+            "name": "Koenigsegg"
+        },
+        {
+            "id_car_mark": "95",
+            "name": "Lamborghini"
+        },
+        {
+            "id_car_mark": "96",
+            "name": "Lancia"
+        },
+        {
+            "id_car_mark": "97",
+            "name": "Land Rover"
+        },
+        {
+            "id_car_mark": "98",
+            "name": "Landwind"
+        },
+        {
+            "id_car_mark": "99",
+            "name": "Lexus"
+        },
+        {
+            "id_car_mark": "100",
+            "name": "Liebao Motor"
+        },
+        {
+            "id_car_mark": "101",
+            "name": "Lifan"
+        },
+        {
+            "id_car_mark": "102",
+            "name": "Lincoln"
+        },
+        {
+            "id_car_mark": "103",
+            "name": "Lotus"
+        },
+        {
+            "id_car_mark": "104",
+            "name": "LTI"
+        },
+        {
+            "id_car_mark": "105",
+            "name": "Luxgen"
+        },
+        {
+            "id_car_mark": "106",
+            "name": "Mahindra"
+        },
+        {
+            "id_car_mark": "107",
+            "name": "Marcos"
+        },
+        {
+            "id_car_mark": "108",
+            "name": "Marlin"
+        },
+        {
+            "id_car_mark": "109",
+            "name": "Marussia"
+        },
+        {
+            "id_car_mark": "110",
+            "name": "Maruti"
+        },
+        {
+            "id_car_mark": "111",
+            "name": "Maserati"
+        },
+        {
+            "id_car_mark": "112",
+            "name": "Maybach"
+        },
+        {
+            "id_car_mark": "113",
+            "name": "Mazda"
+        },
+        {
+            "id_car_mark": "114",
+            "name": "McLaren"
+        },
+        {
+            "id_car_mark": "115",
+            "name": "Mega"
+        },
+        {
+            "id_car_mark": "116",
+            "name": "Mercedes-Benz"
+        },
+        {
+            "id_car_mark": "117",
+            "name": "Mercury"
+        },
+        {
+            "id_car_mark": "118",
+            "name": "Metrocab"
+        },
+        {
+            "id_car_mark": "119",
+            "name": "MG"
+        },
+        {
+            "id_car_mark": "120",
+            "name": "Microcar"
+        },
+        {
+            "id_car_mark": "121",
+            "name": "Minelli"
+        },
+        {
+            "id_car_mark": "122",
+            "name": "Mini"
+        },
+        {
+            "id_car_mark": "123",
+            "name": "Mitsubishi"
+        },
+        {
+            "id_car_mark": "124",
+            "name": "Mitsuoka"
+        },
+        {
+            "id_car_mark": "125",
+            "name": "Morgan"
+        },
+        {
+            "id_car_mark": "126",
+            "name": "Morris"
+        },
+        {
+            "id_car_mark": "127",
+            "name": "Nissan"
+        },
+        {
+            "id_car_mark": "128",
+            "name": "Noble"
+        },
+        {
+            "id_car_mark": "129",
+            "name": "Oldsmobile"
+        },
+        {
+            "id_car_mark": "130",
+            "name": "Opel"
+        },
+        {
+            "id_car_mark": "131",
+            "name": "Osca"
+        },
+        {
+            "id_car_mark": "132",
+            "name": "Pagani"
+        },
+        {
+            "id_car_mark": "133",
+            "name": "Panoz"
+        },
+        {
+            "id_car_mark": "134",
+            "name": "Perodua"
+        },
+        {
+            "id_car_mark": "135",
+            "name": "Peugeot"
+        },
+        {
+            "id_car_mark": "136",
+            "name": "Piaggio"
+        },
+        {
+            "id_car_mark": "137",
+            "name": "Plymouth"
+        },
+        {
+            "id_car_mark": "138",
+            "name": "Pontiac"
+        },
+        {
+            "id_car_mark": "139",
+            "name": "Porsche"
+        },
+        {
+            "id_car_mark": "140",
+            "name": "Premier"
+        },
+        {
+            "id_car_mark": "141",
+            "name": "Proton"
+        },
+        {
+            "id_car_mark": "142",
+            "name": "PUCH"
+        },
+        {
+            "id_car_mark": "143",
+            "name": "Puma"
+        },
+        {
+            "id_car_mark": "144",
+            "name": "Qoros"
+        },
+        {
+            "id_car_mark": "145",
+            "name": "Qvale"
+        },
+        {
+            "id_car_mark": "146",
+            "name": "Reliant"
+        },
+        {
+            "id_car_mark": "147",
+            "name": "Renault"
+        },
+        {
+            "id_car_mark": "148",
+            "name": "Samsung"
+        },
+        {
+            "id_car_mark": "149",
+            "name": "Rolls-Royce"
+        },
+        {
+            "id_car_mark": "150",
+            "name": "Ronart"
+        },
+        {
+            "id_car_mark": "151",
+            "name": "Rover"
+        },
+        {
+            "id_car_mark": "152",
+            "name": "Saab"
+        },
+        {
+            "id_car_mark": "153",
+            "name": "Saleen"
+        },
+        {
+            "id_car_mark": "154",
+            "name": "Santana"
+        },
+        {
+            "id_car_mark": "155",
+            "name": "Saturn"
+        },
+        {
+            "id_car_mark": "156",
+            "name": "Scion"
+        },
+        {
+            "id_car_mark": "157",
+            "name": "SEAT"
+        },
+        {
+            "id_car_mark": "158",
+            "name": "ShuangHuan"
+        },
+        {
+            "id_car_mark": "159",
+            "name": "Skoda"
+        },
+        {
+            "id_car_mark": "160",
+            "name": "Smart"
+        },
+        {
+            "id_car_mark": "161",
+            "name": "Soueast"
+        },
+        {
+            "id_car_mark": "162",
+            "name": "Spectre"
+        },
+        {
+            "id_car_mark": "163",
+            "name": "Spyker"
+        },
+        {
+            "id_car_mark": "165",
+            "name": "SsangYong"
+        },
+        {
+            "id_car_mark": "166",
+            "name": "Subaru"
+        },
+        {
+            "id_car_mark": "167",
+            "name": "Suzuki"
+        },
+        {
+            "id_car_mark": "168",
+            "name": "Talbot"
+        },
+        {
+            "id_car_mark": "169",
+            "name": "Tata"
+        },
+        {
+            "id_car_mark": "170",
+            "name": "Tatra"
+        },
+        {
+            "id_car_mark": "171",
+            "name": "Tazzari"
+        },
+        {
+            "id_car_mark": "172",
+            "name": "Tesla"
+        },
+        {
+            "id_car_mark": "173",
+            "name": "Tianma"
+        },
+        {
+            "id_car_mark": "174",
+            "name": "Tianye"
+        },
+        {
+            "id_car_mark": "175",
+            "name": "Tofas"
+        },
+        {
+            "id_car_mark": "176",
+            "name": "Toyota"
+        },
+        {
+            "id_car_mark": "177",
+            "name": "Trabant"
+        },
+        {
+            "id_car_mark": "178",
+            "name": "Tramontana"
+        },
+        {
+            "id_car_mark": "179",
+            "name": "Triumph"
+        },
+        {
+            "id_car_mark": "180",
+            "name": "TVR"
+        },
+        {
+            "id_car_mark": "181",
+            "name": "Vauxhall"
+        },
+        {
+            "id_car_mark": "182",
+            "name": "Vector"
+        },
+        {
+            "id_car_mark": "183",
+            "name": "Venturi"
+        },
+        {
+            "id_car_mark": "184",
+            "name": "Volkswagen"
+        },
+        {
+            "id_car_mark": "185",
+            "name": "Volvo"
+        },
+        {
+            "id_car_mark": "186",
+            "name": "Vortex"
+        },
+        {
+            "id_car_mark": "187",
+            "name": "Wartburg"
+        },
+        {
+            "id_car_mark": "188",
+            "name": "Westfield"
+        },
+        {
+            "id_car_mark": "189",
+            "name": "Wiesmann"
+        },
+        {
+            "id_car_mark": "190",
+            "name": "Xin Kai"
+        },
+        {
+            "id_car_mark": "191",
+            "name": "Zastava"
+        },
+        {
+            "id_car_mark": "192",
+            "name": "Zotye"
+        },
+        {
+            "id_car_mark": "193",
+            "name": "ZX"
+        },
+        {
+            "id_car_mark": "211",
+            "name": "Ё-мобиль"
+        },
+        {
+            "id_car_mark": "212",
+            "name": "Автокам"
+        },
+        {
+            "id_car_mark": "215",
+            "name": "ВАЗ (Lada)"
+        },
+        {
+            "id_car_mark": "216",
+            "name": "ГАЗ"
+        },
+        {
+            "id_car_mark": "217",
+            "name": "ЗАЗ"
+        },
+        {
+            "id_car_mark": "218",
+            "name": "ЗИЛ"
+        },
+        {
+            "id_car_mark": "219",
+            "name": "ИЖ"
+        },
+        {
+            "id_car_mark": "221",
+            "name": "Канонир"
+        },
+        {
+            "id_car_mark": "222",
+            "name": "ЛуАЗ"
+        },
+        {
+            "id_car_mark": "223",
+            "name": "Москвич"
+        },
+        {
+            "id_car_mark": "224",
+            "name": "СМЗ"
+        },
+        {
+            "id_car_mark": "226",
+            "name": "ТагАЗ"
+        },
+        {
+            "id_car_mark": "227",
+            "name": "УАЗ"
+        },
+        {
+            "id_car_mark": "280",
+            "name": "Ultima"
+        },
+        {
+            "id_car_mark": "282",
+            "name": "Hawtai"
+        },
+        {
+            "id_car_mark": "284",
+            "name": "Renaissance Cars"
+        },
+        {
+            "id_car_mark": "286",
+            "name": "Paykan"
+        },
+        {
+            "id_car_mark": "289",
+            "name": "Gordon"
+        },
+        {
+            "id_car_mark": "290",
+            "name": "Haval"
+        },
+        {
+            "id_car_mark": "291",
+            "name": "Alpina"
+        },
+        {
+            "id_car_mark": "3589",
+            "name": "DS"
+        },
+        {
+            "id_car_mark": "3590",
+            "name": "PGO"
+        },
+        {
+            "id_car_mark": "3591",
+            "name": "Zenvo"
+        },
+        {
+            "id_car_mark": "3619",
+            "name": "Rezvani"
+        },
+        {
+            "id_car_mark": "3620",
+            "name": "Rimac"
+        },
+        {
+            "id_car_mark": "3664",
+            "name": "Adler"
+        },
+        {
+            "id_car_mark": "3665",
+            "name": "DeSoto"
+        },
+        {
+            "id_car_mark": "3666",
+            "name": "Packard"
+        },
+        {
+            "id_car_mark": "3667",
+            "name": "Willys"
+        },
+        {
+            "id_car_mark": "3668",
+            "name": "Комбат"
+        },
+        {
+            "id_car_mark": "3676",
+            "name": "Borgward"
+        },
+        {
+            "id_car_mark": "3689",
+            "name": "Ravon"
+        },
+        {
+            "id_car_mark": "3690",
+            "name": "ЗиС"
+        },
+        {
+            "id_car_mark": "3705",
+            "name": "AMC"
+        },
+        {
+            "id_car_mark": "3706",
+            "name": "Zenos"
+        },
+        {
+            "id_car_mark": "3728",
+            "name": "W Motors"
+        },
+        {
+            "id_car_mark": "3739",
+            "name": "Hudson"
+        },
+        {
+            "id_car_mark": "3749",
+            "name": "Austin Healey"
+        },
+        {
+            "id_car_mark": "3752",
+            "name": "Chana"
+        },
+        {
+            "id_car_mark": "3753",
+            "name": "Changhe"
+        },
+        {
+            "id_car_mark": "3754",
+            "name": "DFSK"
+        },
+        {
+            "id_car_mark": "3755",
+            "name": "Efini"
+        },
+        {
+            "id_car_mark": "3756",
+            "name": "Excalibur"
+        },
+        {
+            "id_car_mark": "3757",
+            "name": "Groz"
+        },
+        {
+            "id_car_mark": "3760",
+            "name": "Hurtan"
+        },
+        {
+            "id_car_mark": "3761",
+            "name": "Jiangnan"
+        },
+        {
+            "id_car_mark": "3762",
+            "name": "Jinbei"
+        },
+        {
+            "id_car_mark": "3765",
+            "name": "Monte Carlo"
+        },
+        {
+            "id_car_mark": "3767",
+            "name": "Nysa"
+        },
+        {
+            "id_car_mark": "3771",
+            "name": "Shifeng"
+        },
+        {
+            "id_car_mark": "3772",
+            "name": "SMA"
+        },
+        {
+            "id_car_mark": "3774",
+            "name": "Wuling"
+        },
+        {
+            "id_car_mark": "3815",
+            "name": "Genesis"
+        },
+        {
+            "id_car_mark": "3816",
+            "name": "International"
+        },
+        {
+            "id_car_mark": "3821",
+            "name": "Zibar"
+        },
+        {
+            "id_car_mark": "3822",
+            "name": "Прочие авто"
+        },
+        {
+            "id_car_mark": "4142",
+            "name": "RAM"
+        },
+        {
+            "id_car_mark": "4144",
+            "name": "Aurus"
+        },
+        {
+            "id_car_mark": "4145",
+            "name": "Trumpchi"
+        },
+        {
+            "id_car_mark": "4146",
+            "name": "Abarth"
+        },
+        {
+            "id_car_mark": "4147",
+            "name": "Baic"
+        },
+        {
+            "id_car_mark": "4148",
+            "name": "DFM"
+        },
+        {
+            "id_car_mark": "4149",
+            "name": "Saipa"
+        },
+        {
+            "id_car_mark": "4154",
+            "name": "Apal"
+        },
+        {
+            "id_car_mark": "4155",
+            "name": "Bajaj"
+        },
+        {
+            "id_car_mark": "4156",
+            "name": "Batmobile"
+        },
+        {
+            "id_car_mark": "4157",
+            "name": "Bilenkin"
+        },
+        {
+            "id_car_mark": "4158",
+            "name": "Cord"
+        },
+        {
+            "id_car_mark": "4159",
+            "name": "Delage"
+        },
+        {
+            "id_car_mark": "4160",
+            "name": "DKW"
+        },
+        {
+            "id_car_mark": "4162",
+            "name": "DW Hower"
+        },
+        {
+            "id_car_mark": "4163",
+            "name": "Flanker"
+        },
+        {
+            "id_car_mark": "4164",
+            "name": "GAC"
+        },
+        {
+            "id_car_mark": "4165",
+            "name": "GP"
+        },
+        {
+            "id_car_mark": "4166",
+            "name": "Hanomag"
+        },
+        {
+            "id_car_mark": "4167",
+            "name": "Hispano-Suiza"
+        },
+        {
+            "id_car_mark": "4168",
+            "name": "Horch"
+        },
+        {
+            "id_car_mark": "4169",
+            "name": "KTM AG"
+        },
+        {
+            "id_car_mark": "4170",
+            "name": "Ligier"
+        },
+        {
+            "id_car_mark": "4171",
+            "name": "Lucid"
+        },
+        {
+            "id_car_mark": "4172",
+            "name": "Nash"
+        },
+        {
+            "id_car_mark": "4173",
+            "name": "Rambler"
+        },
+        {
+            "id_car_mark": "4174",
+            "name": "Renaissance"
+        },
+        {
+            "id_car_mark": "4175",
+            "name": "Renault Samsung"
+        },
+        {
+            "id_car_mark": "4176",
+            "name": "Rinspeed"
+        },
+        {
+            "id_car_mark": "4177",
+            "name": "Shanghai Maple"
+        },
+        {
+            "id_car_mark": "4178",
+            "name": "Simca"
+        },
+        {
+            "id_car_mark": "4179",
+            "name": "Steyr"
+        },
+        {
+            "id_car_mark": "4180",
+            "name": "Studebaker"
+        },
+        {
+            "id_car_mark": "4181",
+            "name": "Think"
+        },
+        {
+            "id_car_mark": "4182",
+            "name": "Wanderer"
+        },
+        {
+            "id_car_mark": "4183",
+            "name": "Гоночный болид"
+        },
+        {
+            "id_car_mark": "4184",
+            "name": "Logem"
+        },
+        {
+            "id_car_mark": "4186",
+            "name": "Dallara"
+        },
+        {
+            "id_car_mark": "4187",
+            "name": "Heinkel"
+        },
+        {
+            "id_car_mark": "4188",
+            "name": "Yulon"
+        },
+        {
+            "id_car_mark": "4189",
+            "name": "Bio auto"
+        },
+        {
+            "id_car_mark": "4190",
+            "name": "Deco Rides"
+        },
+        {
+            "id_car_mark": "4191",
+            "name": "Sears"
+        },
+        {
+            "id_car_mark": "4192",
+            "name": "Xpeng"
+        },
+        {
+            "id_car_mark": "4195",
+            "name": "Roewe"
+        },
+        {
+            "id_car_mark": "4196",
+            "name": "CheryExeed"
+        },
+        {
+            "id_car_mark": "4197",
+            "name": "LiXiang"
+        },
+        {
+            "id_car_mark": "4198",
+            "name": "Nio"
+        },
+        {
+            "id_car_mark": "4199",
+            "name": "Hennessey"
+        },
+        {
+            "id_car_mark": "4200",
+            "name": "Polestar"
+        },
+        {
+            "id_car_mark": "4201",
+            "name": "Auburn"
+        },
+        {
+            "id_car_mark": "4202",
+            "name": "Weltmeister"
+        },
+        {
+            "id_car_mark": "4203",
+            "name": "Cupra"
+        },
+        {
+            "id_car_mark": "4204",
+            "name": "Goggomobil"
+        },
+        {
+            "id_car_mark": "4205",
+            "name": "HSV"
+        },
+        {
+            "id_car_mark": "4206",
+            "name": "Matra"
+        },
+        {
+            "id_car_mark": "4207",
+            "name": "Messerschmitt"
+        },
+        {
+            "id_car_mark": "4208",
+            "name": "Pierce-Arrow"
+        },
+        {
+            "id_car_mark": "4209",
+            "name": "VUHL"
+        },
+        {
+            "id_car_mark": "4210",
+            "name": "Ciimo"
+        },
+        {
+            "id_car_mark": "4211",
+            "name": "Everus"
+        },
+        {
+            "id_car_mark": "4212",
+            "name": "Facel Vega"
+        },
+        {
+            "id_car_mark": "4213",
+            "name": "Hongqi"
+        },
+        {
+            "id_car_mark": "4214",
+            "name": "Hozon"
+        },
+        {
+            "id_car_mark": "4215",
+            "name": "Aion"
+        },
+        {
+            "id_car_mark": "4216",
+            "name": "Blaval"
+        },
+        {
+            "id_car_mark": "4217",
+            "name": "Skywell"
+        },
+        {
+            "id_car_mark": "4307",
+            "name": "Voyah"
+        },
+        {
+            "id_car_mark": "4308",
+            "name": "Rivian"
+        },
+        {
+            "id_car_mark": "4309",
+            "name": "Zeekr"
+        },
+        {
+            "id_car_mark": "4310",
+            "name": "Leapmotor"
+        },
+        {
+            "id_car_mark": "4311",
+            "name": "Tank"
+        },
+        {
+            "id_car_mark": "4312",
+            "name": "Arcfox"
+        },
+        {
+            "id_car_mark": "4313",
+            "name": "Auto Union"
+        },
+        {
+            "id_car_mark": "4314",
+            "name": "Denza"
+        },
+        {
+            "id_car_mark": "4315",
+            "name": "Evolute"
+        },
+        {
+            "id_car_mark": "4316",
+            "name": "HiPhi"
+        },
+        {
+            "id_car_mark": "4317",
+            "name": "Kaiyi"
+        },
+        {
+            "id_car_mark": "4318",
+            "name": "Omoda"
+        },
+        {
+            "id_car_mark": "4319",
+            "name": "DR"
+        },
+        {
+            "id_car_mark": "4320",
+            "name": "Mobilize"
+        },
+        {
+            "id_car_mark": "4321",
+            "name": "Oshan"
+        },
+        {
+            "id_car_mark": "4322",
+            "name": "Aito"
+        },
+        {
+            "id_car_mark": "4323",
+            "name": "Baojun"
+        },
+        {
+            "id_car_mark": "4324",
+            "name": "Jetour"
+        },
+        {
+            "id_car_mark": "4325",
+            "name": "Jetta"
+        },
+        {
+            "id_car_mark": "4326",
+            "name": "Lynk & Co"
+        },
+        {
+            "id_car_mark": "4327",
+            "name": "Seres"
+        },
+        {
+            "id_car_mark": "4361",
+            "name": "ORA"
+        },
+        {
+            "id_car_mark": "4362",
+            "name": "WEY"
+        }
+    ]
+}

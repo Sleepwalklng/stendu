@@ -1,0 +1,2 @@
+<?php
+$MESS['VLADEK.CATALOG.SECTION.COMPONENT.TEMPLATE.NAME'] = 'Номер карты:';

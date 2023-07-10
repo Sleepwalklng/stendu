@@ -1,0 +1,275 @@
+.header {
+
+  &__top {
+    display: flex;
+    align-items: center;
+    padding-top: 1.8rem;
+  }
+
+  &__location {
+    font-size: 1.6rem;
+    color: #8990AB;
+    padding-top: 0.3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__location-img {
+    width: 1.5rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+  }
+  
+  &__location-text {
+    margin-left: 1.4rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #20242C;
+    text-decoration: underline;
+  }
+
+  &__menu {
+    margin-left: 16.4rem;
+    padding-bottom: 0.3rem;
+  }
+
+  &__social {
+    margin-left: auto;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  &__logo {
+    display: block;
+    max-width: 23.1rem;
+  }
+
+  &__search {
+    position: relative;
+    display: flex;
+    width: 97rem;
+    padding: 0.8rem 1rem;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    background-color: #fff;
+    border-radius: 33.3rem;
+
+    &::before,
+    &::after {
+      content: "";
+      width: 3.8rem;
+      position: absolute;
+      right: 14.1rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &::before {
+      top: 0;
+      height: 0.5rem;
+      background-image: url(../images/search-decor1.svg);
+    }
+
+    &::after {
+      bottom: 0;
+      height: 0.6rem;
+      background-image: url(../images/search-decor2.svg);
+    }
+  }
+  
+  &__categories {
+    height: 5rem;
+    padding: 0.7rem 5.4rem 0.7rem 2rem;
+    box-shadow: 0.86rem 0.86rem 3.4rem rgba(39, 138, 230, 0.3);
+  }
+
+  &__categories-img {
+    width: 1.6rem;
+    margin-right: 1rem;
+
+    &--mob {
+      display: none;
+    }
+  }
+
+  &__label {
+    width: 60rem;
+    margin: 0 1rem;
+    padding-left: 1.4rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    width: 100%;
+    border: 0;
+    outline: transparent;
+    padding: 0;
+
+    &::placeholder {
+      font-size: 1.8rem;
+      color: #9CA0AE;
+    }
+  }
+
+  &__btn {
+    height: 5rem;
+    margin-left: auto;
+    padding: 0.7rem 3rem 0.7rem 2.8rem;
+    box-shadow: 0.86rem 0.86rem 3.4rem rgba(39, 138, 230, 0.3);
+  }
+
+  &__btn-img {
+    width: 1.8rem;
+    margin-right: 1.1rem;
+  }
+
+  &__application-add {
+    padding: 1.5rem 5.2rem 1.6rem;
+    box-shadow: 1rem 1rem 4rem rgba(39, 115, 230, 0.15);
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-top: 0.3rem;
+  }
+
+  @include _48 {
+    position: relative;
+
+    &__top {
+      padding-top: 4.2rem;
+    }
+
+    &__location,
+    &__menu {
+      display: none;
+    }
+
+    &__social {
+      margin-left: auto;
+    }
+
+    .social {
+
+      &__item {
+        display: none;
+
+        &--mob {
+          display: block;
+          margin-right: 0;
+        }
+      }
+
+      &__link {
+        width: 10.4rem;
+        height: 10.4rem;
+      }
+
+      &__img {
+        width: 3.4rem;
+        height: 3.6rem;
+      }
+    }
+
+    &__bottom {
+      padding-top: 3.6rem;
+    }
+
+    &__logo {
+      max-width: 21.8rem;
+      width: 100%;
+      position: absolute;
+      top: 5.8rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &__search {
+      width: 100%;
+      padding: 1.6rem 2.2rem 1.8rem 3.6rem;
+      margin: 0;
+      flex-direction: row-reverse;
+
+      &::before,
+      &::after {
+        width: 6.8rem;
+        right: 12.4rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        mix-blend-mode: darken;
+      }
+
+      &::before {
+        top: -0.1rem;
+        height: 1.4rem;
+        background-image: url(../images/search-decor1.svg);
+      }
+
+      &::after {
+        bottom: -0.1rem;
+        height: 1.2rem;
+        background-position: bottom;
+        background-image: url(../images/search-decor2.svg);
+      }
+    }
+    
+    &__categories {
+      height: 10.4rem;
+      width: 10.4rem;
+      padding: 0;
+      font-size: 0;
+      justify-content: center;
+    }
+
+    &__categories-img {
+      display: none;
+
+      &--mob {
+        display: block;
+        width: 4.8rem;
+        height: 4.8rem;
+        margin-right: 0;
+      }
+    }
+
+    &__label {
+      width: 62rem;
+      margin: 0;
+      padding-left: 7.2rem;
+      padding-top: 0.6rem;
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      &::before {
+        content: "";
+        width: 4.4rem;
+        height: 4.4rem;
+        margin-bottom: 0.6rem;
+        position: absolute; 
+        left: 0;
+        background-image: url(../images/search-mob.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    &__input {
+      font-size: 3rem;
+
+      &::placeholder {
+        font-size: 3rem;
+        color: #9CA0AE;
+      }
+    }
+
+    &__btn,
+    &__application-add {
+      display: none;
+    }
+  }
+}

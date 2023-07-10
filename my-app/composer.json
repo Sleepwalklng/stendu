@@ -1,0 +1,5 @@
+{
+    "require": {
+        "basebuy/basebuy-sdk-php": "^1.0"
+    }
+}

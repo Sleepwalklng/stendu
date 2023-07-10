@@ -1,0 +1,13 @@
+.menu {
+  font-size: 1.6rem;
+  font-weight: 600;
+  
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
